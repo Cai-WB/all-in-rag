@@ -226,6 +226,9 @@ for i, element in enumerate(elements, 1):
 ## 练习
 
 - 使用`partition_pdf`替换当前`partition`函数并分别尝试用`hi_res`和`ocr_only`进行解析，观察输出结果有何变化。
+代码参考(https://github.com/Cai-WB/all-in-rag/blob/main/code/C2/partition_pdf_example.py)
+  - hi_res 策略（高分辨率模式）：这种策略使用更复杂的模型来检测文档中的元素，可以保留更多的格式和布局信息。它会使用像 YOLO 这样的对象检测模型来识别文档中的不同部分。
+  - ocr_only 策略（仅 OCR 模式）：这种策略使用光学字符识别（OCR）技术从文档中提取文本，特别适合处理扫描件或无法直接提取文本的 PDF 文件。
 
 ## 参考文献
 
