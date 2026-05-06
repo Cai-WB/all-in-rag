@@ -159,4 +159,4 @@ FAISS index has been saved to ./faiss_index_store
 ## 练习
 
 1. LlamaIndex默认会将数据存储为透明可读的JSON格式，运行[03_llamaindex_vector.py](https://github.com/datawhalechina/all-in-rag/blob/main/code/C3/03_llamaindex_vector.py)文件，查看保存的json文件内容。
-2. 新建一个代码文件实现对LlamaIndex存储数据的加载和相似性搜索。
+2. 新建一个代码文件实现对LlamaIndex存储数据的加载和相似性搜索。[03_llamaindex_faiss.py](https://github.com/Cai-WB/all-in-rag/blob/main/code/C3/03_llamaindex_faiss.py)
